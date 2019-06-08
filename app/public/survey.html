@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- JQuery  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+        <form>
+            <h1 class="display-4">Survey Questions</h1>
+            <hr class="my-4">
+            <h2><strong>About You</strong></h2>
+
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="nameInput">
+            </div>
+
+            <div class="form-group">
+                <label for="photoLink">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="photoLinkInput">
+            </div>
+
+            <hr class="my-4">
+
+            <div class="form-group col-md-4">
+                <h3>Question 1</h3>
+                <label for="question1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                <select id="question1" class="form-control">
+                    <option selected>Select an option</option>
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" id='surveySubmit'>Submit!</button>
+
+
+        </form>
+
+        <hr class="my-4">
+
+
+        <footer>
+            <a href="/api/friends">API Friends Link</a> |
+            <a href="https://github.com/beatriz03/FriendFinder.git">Github Repo</a>
+        </footer>
+
+    </div>
+
+
+
+    <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Best Match</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Photo of Best Match
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+</body>
+
+</html>
