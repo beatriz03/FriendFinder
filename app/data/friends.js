@@ -1,7 +1,7 @@
 var friendsArray = [
 {
-  'name':'Ahmed',
-  'photo':'#',
+  'name':'Carol Danvers',
+  'photo':"<input type='image' src='css/images/captainMarvel.jpg' alt='Captain Marvel'>",
   'scores':[
       5,
       1,
@@ -14,8 +14,8 @@ var friendsArray = [
       4,
       1
     ]}, {
-    'name':'Mary',
-    'photo':'#',
+    'name':'Stephen Strange',
+    'photo':"<input type='image' src='css/images/drStrange.jpg' alt='Dr. Strange'>",
     'scores':[
       4,
       5,
@@ -28,8 +28,8 @@ var friendsArray = [
       3,
       5
     ]}, {
-      'name':'Samuel',
-      'photo':'#',
+      'name':'Nick Fury',
+      'photo':"<input type='image' src='css/images/nickFury.jpg' alt='Nick Fury'>",
       'scores':[
         1,
         3,
@@ -41,9 +41,24 @@ var friendsArray = [
         5,
         1,
         1
-      ]},{
-    'name':'Johnny',
-    'photo':'#',
+      ]}, {
+        'name':'Wanda Maximoff',
+        'photo':"<input type='image' src='css/images/scarletWitch.jpg' alt='Scarlet Witch'>",
+        'scores':[
+          3,
+          5,
+          5,
+          1,
+          2,
+          2,
+          4,
+          4,
+          5,
+          2
+        ]},
+      {
+    'name':'Steve Rogers',
+    'photo':"<input type='image' src='css/images/captainAmerica.jpg' alt='Captain America'>",
     'scores':[
       2,
       1,
